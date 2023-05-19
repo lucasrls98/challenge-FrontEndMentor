@@ -18,5 +18,26 @@
 }
 
 body{
-    background-color: var(--lightGrayishBlue)
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: var(--veryDarkBlue);
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
 }
