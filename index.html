@@ -1,61 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <header>
+      <h1><img src="./images/logo.svg" alt="fylo" /></h1>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+      <nav>
+        <a href="">Features</a>
+        <a href="">Team</a>
+        <a href="">Sing In</a>
+      </nav>
+    </header>
+    <main>
+      <section class="primeira-section">
+        <div class="content">
+          <div class="left">
+            <h2>Todos os seus arquivos em um local seguro, acessíveis em qualquer lugar</h2>
+            <p>
+              Fylo armazena seus mais importantes arquivos em um só lugar seguro. Acesse eles sempre
+              quando precisar, compartilhe e colabore com amigos, familia e colegas de trabalho.
+            </p>
+            <fieldset>
+              <input type="text" placeholder="Entre com seu email..." />
+              <button>Começe já</button>
+            </fieldset>
+          </div>
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-</head>
+          <div class="right">
+            <img
+              src="./images/illustration-1.svg"
+              alt="Ilustração de pessoas pegando papeis de um arquivo"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="segunda-section">
+        <div class="content">
+          <div class="left-2">
+            <h2>Mantenha-se produtivo, em qualquer lugar que você esteja</h2>
+            <p>
+              Nunca deixe sua localização ser um problema quando estiver acessando seus arquivos.
+              Fylo tem cuidado das suas necessidades de armazenamento.
+            </p>
+            <p>
+              Seguramente, compartilhe arquivos e pastas com amigos, família e colegas em
+              colaboração. Sem necessidade de anexar e-mails.
+            </p>
 
-<body>
-  <header>
+            <a href="" class="link-call-action">
+              Veja como a fylo funciona
+              <img src="./images/icon-arrow.svg" alt="Seta para direita" />
+            </a>
 
-    <h1><img src="./images/logo.svg" alt="fylo"></h1>
-
-    <nav>
-      <a href="">Features</a>
-      <a href="">Team</a>
-      <a href="">Sign in</a>
-
-
-    </nav>
-  </header>
-  <main>
-    <section class="primeira-section">
-      <div class="left">
-        <h2>All your files in one secure location, acessible anywhere.</h2>
-        <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workes. </p>
-        <fieldset>
-          <input type="text" placeholder="Enter your email...">
-          <button>Get Started</button>
-        </fieldset>
-      </div>
-      <div class="right">
-        <img src="images/illustration-1.svg" alt="ilustração de pessoas com arquivos gigantes na mão">
-
-      </div>
-
-    </section>
-    <section></section>
-    <section></section>
-  </main>
-  <footer></footer>
-</body>
-
+            <blockquote>
+              <img src="./images/icon-quotes.svg" alt="Aspas" />
+              <p>
+                A Fylo melhorou a produtividade da nossa equipe em uma ordem de magnitude. Desde a
+                mudança, nossa equipe se tornou uma máquina de colaboração.
+              </p>
+              <div class="profile">
+                <img src="./images/avatar-testimonial.jpg" alt="Foto do Kyle Burton" />
+                <article>
+                  <h3>Kyle Burton</h3>
+                  <p>Founder & CEO, Huddle</p>
+                </article>
+              </div>
+            </blockquote>
+          </div>
+          <div class="right">
+            <img
+              src="./images/illustration-2.svg"
+              alt="Ilustação de pessoas segurando balões de conversa"
+            />
+          </div>
+        </div>
+      </section>
+      <section></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
