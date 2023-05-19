@@ -36,10 +36,18 @@ header {
     justify-content: space-between;
 }
 
+
+
 nav {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+nav > a:hover{
+    font-weight: 700;
+    transform: scale(1.2);
+    transition: .3s;
+
 }
 
 a {
@@ -79,6 +87,12 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .2s;
 }
 
 .left,
