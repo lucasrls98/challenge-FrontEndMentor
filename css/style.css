@@ -233,3 +233,14 @@ blockquote>img {
 .profile article p {
     font-size: 14px;
 }
+
+.early-access-section{
+    width: fit-content;
+    display: flex;   
+    flex-direction: space-between;
+    background-color: var(--desaturatedBlue);
+
+    
+
+}
+
